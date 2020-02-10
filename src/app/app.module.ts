@@ -15,12 +15,14 @@ import {
 } from '@angular/material';
 import { SearchBooksComponent } from './search-books/search-books.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BookComponent } from './book/book.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    SearchBooksComponent
+    SearchBooksComponent,
+    BookComponent
   ],
   imports: [
     BrowserModule,

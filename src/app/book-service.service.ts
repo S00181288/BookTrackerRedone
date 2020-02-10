@@ -17,7 +17,6 @@ export class BookServiceService {
   getBookInfo(bookName: string): Observable<Book> {
     //console.log(bookName);
     return this._http.get<Book>(this._siteURL + bookName + this._key).pipe(tap(data => console.log('All: ' + JSON.stringify(data))));
-
   }
 
   constructor(private _http: HttpClient) { }

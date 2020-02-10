@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    
   }
   
   .example-container > * {
@@ -13,9 +14,19 @@
       text-align: center;
   }
 
-  button{
+
+  .bookbutton{
+    margin: 1rem;
+    background-color:#379683;
+    color: black;
     max-width: 20rem;
     margin: auto;
-  }
+    
+    }
+
+    .black{
+      
+      color: #379683;
+    }
 
   

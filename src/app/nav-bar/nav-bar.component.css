@@ -1,4 +1,9 @@
 a{
-    color: white;
+    color: #379683;
     text-decoration: none;
+}
+
+.black{
+    background-color: black;
+    color: #379683;
 }

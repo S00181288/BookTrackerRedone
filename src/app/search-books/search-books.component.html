@@ -1,4 +1,7 @@
-<h2 class="mat-h2 center black">Search books by title</h2>
+<div  class=" full-height black" >
+
+
+<h2 class="mat-h2 center ">Search books by title</h2>
 
 <div class="example-container ">
   <mat-form-field  > 
@@ -7,6 +10,8 @@
   <button class="bookbutton" mat-raised-button color="primary" type="submit" (click)="getBooksInformation(bookName.value)">Search Book</button>
 
 
-  <div *ngIf="bookData">
-    <app-book  [bookData]="bookData" ></app-book>
+  <div class="black" *ngIf="bookData">
+    <app-book   [bookData]="bookData" ></app-book>
   </div>
+
+</div>

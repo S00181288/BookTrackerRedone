@@ -1,0 +1,21 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .example-container > * {
+    width: 100%;
+    
+  }
+  
+  .center{
+      text-align: center;
+  }
+
+  button{
+    max-width: 20rem;
+    margin: auto;
+  }
+
+  
